@@ -2337,7 +2337,7 @@ input, select, textarea {
 
 			.image.phone .inner, .image.phone:before, .image.phone:after {
 				display: block;
-				border: solid 2px rgba(255, 255, 255, 0.25);
+				border: none 2px rgba(255, 255, 255, 0.25);
 			}
 
 			.image.phone .inner {
@@ -2365,7 +2365,7 @@ input, select, textarea {
 					width: 2em;
 					height: 2em;
 					border-radius: 100%;
-					border: solid 2px rgba(255, 255, 255, 0.25);
+					border: none 2px rgba(255, 255, 255, 0.25);
 				}
 
 			.image.phone:before, .image.phone:after {
@@ -3758,7 +3758,8 @@ input, select, textarea {
 				}
 
 				#header .image.phone .inner:before {
-					background: rgba(255, 255, 255, 0.25);
+					/* background: rgba(255, 255, 255, 0.25); */
+					background: rgba(255, 255, 255, 0);
 				}
 
 				#header .image.phone .inner:after {
